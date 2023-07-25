@@ -1,0 +1,38 @@
+name: Jekyll Build and Deploy
+
+on:
+  push:
+    branches:
+      - main  # Adjust the branch name if needed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.x  # Adjust the Ruby version if needed
+
+      - name: Install Jekyll Dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build Jekyll Site
+        run: bundle exec jekyll build --destination _site
+
+      - name: Deploy to gh-pages
+        run: |
+          git config user.name "Your GitHub Username"
+          git config user.email "your-email@example.com"
+          git checkout --orphan gh-pages
+          git rm -rf .
+          cp -r _site/* .
+          git add .
+          git commit -m "Deploy Jekyll build to gh-pages branch"
+          git push -f origin gh-pages
