@@ -1,0 +1,28 @@
+
+## 108.  'Broad is the road that leads to death,'
+[edit](https://docs.google.com/document/d/1OuSG%2D5fNeznKx5C_tQFQOsXAhs15lAFw/edit?mode=html)
+
+
+
+    1. Broad is the road that leads to death,
+    And thousands walk together there;
+    But wisdom shows a narrow path,
+    With here and there a traveler.
+
+
+    2. Deny thyself, and take thy cross,
+    Is thy Redeemer’s great command;
+    Nature must count her gold but dross,
+    If she would gain that heavenly land.
+
+
+    3. The fearful soul that tires and faints,
+    And walks the ways of God no more,
+    Is but esteemed almost a saint.
+    And makes his own destruction sure.
+
+
+    4. Lord, let not all my hopes be vain;
+    Create my heart entirely new;
+    Let thy sweet Spirit me sustain—
+    Oh! guide me all life’s journey through.
